@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Mohave:wght@300&family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body {
+  font-family: Montserrat;
+}
+
+.header {
+  background-color: rgba(213, 213, 213, 0.666);
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-list {
+  background-color: rgba(127, 250, 127, 0.945);
+  display: flex;
+  border-radius: 10px 100px / 120px;
+}
+
+.link-list li {
+  padding: 30px 30px;
+}
+
+.link-list li a {
+  font-size: 1.5rem;
+  color: black;
+}
+.link-list li a:hover {
+  color: white;
+}
+.sec1 {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px 20px;
+  padding: 30px;
+  line-height: 28px;
+}
+.sec1 h2 {
+  margin-bottom: 10px;
+}
+.sec2 {
+  display: flex;
+  justify-content: center;
+}
+.sec2-item {
+  background-color: rgba(127, 250, 127, 0.945);
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  align-content: space-between;
+  text-align: center;
+  padding-top: 100px;
+}
+.sec2-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.sec2-item a {
+  color: black;
+}
+.sec2-item a:hover {
+  color: white;
+}
