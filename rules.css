@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Mohave:wght@300&family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  font-family: Montserrat;
+}
+
+.header {
+  background-color: rgba(213, 213, 213, 0.666);
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-list {
+  background-color: rgba(127, 250, 127, 0.945);
+  display: flex;
+  border-radius: 0.625rem 6.25rem / 7.5rem;
+  list-style-type: none;
+}
+
+.link-list li {
+  width: 10vw;
+  height: 5vh;
+  padding: 1.875rem 1.875rem;
+}
+
+.link-list li a {
+  font-size: 1.2rem;
+  color: black;
+}
+.link-list li a:hover {
+  color: white;
+}
+.sec2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sec2-item {
+  background-color: rgba(127, 250, 127, 0.945);
+  width: 10vw;
+  height: 10vh;
+  margin: 1.25rem;
+  border-radius: 0.625rem;
+  align-content: space-between;
+  text-align: center;
+  padding-top: 4rem;
+}
+.sec2-item a {
+  color: black;
+}
+.sec2-item a:hover {
+  color: white;
+}
+.sec3 {
+  border: 2px solid black;
+  border-radius: 0.625rem;
+  padding: 3.125rem;
+  margin: 1.875rem;
+  display: flex;
+}
+.sec3 h2 {
+  align-self: center;
+  margin-right: 2.5rem;
+}
+.sec3 ol li {
+  margin: 0.625rem;
+  line-height: 1.75rem;
+}
