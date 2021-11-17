@@ -47,12 +47,14 @@ body {
   flex-wrap: wrap;
 }
 .sec2-item {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
   background-color: rgba(127, 250, 127, 0.945);
   width: 10vw;
-  height: 10vh;
+  height: 15vh;
   margin: 1.25rem;
   border-radius: 0.625rem;
-  align-content: space-between;
   text-align: center;
   padding-top: 4rem;
 }
@@ -60,12 +62,11 @@ body {
   box-shadow: 0 0 0.875rem rgb(116, 116, 116);
 }
 .sec2-item i {
-  font-size: 2rem;
-
+  font-size: 1.5rem;
   transition: all ease-in-out 250ms;
 }
 .sec2-item i:hover {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .sec2-item h3 {
   font-size: 1rem;
@@ -87,10 +88,19 @@ body {
   padding: 3.125rem;
   margin: 1.875rem;
   display: flex;
+  background-color: rgba(213, 213, 213, 0.324);
+}
+.sec3:hover {
+  box-shadow: 0 0 0.875rem rgb(116, 116, 116);
 }
 .sec3 h2 {
   align-self: center;
   margin-right: 2.5rem;
+  transition: all ease-in-out 250ms;
+}
+.sec3 h2:hover {
+  font-size: 2rem;
+  text-shadow: 0 0 0.2rem rgb(116, 116, 116);
 }
 .sec3 ol li {
   margin: 0.625rem;
