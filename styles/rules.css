@@ -49,14 +49,14 @@ body {
 .sec2-item {
   display: flex;
   flex-direction: column;
-  align-content: space-evenly;
+  align-content: space-between;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(127, 250, 127, 0.945);
-  width: 10vw;
+  width: 13vw;
   height: 15vh;
   margin: 1.25rem;
   border-radius: 0.625rem;
-  text-align: center;
-  padding-top: 4rem;
 }
 .sec2-item:hover {
   box-shadow: 0 0 0.875rem rgb(116, 116, 116);
