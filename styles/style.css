@@ -66,14 +66,15 @@ body {
   justify-content: center;
 }
 .sec2-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(127, 250, 127, 0.945);
   width: 40vw;
   height: 30vh;
   margin: 1.25rem;
   border-radius: 0.625rem;
-  align-content: space-between;
-  text-align: center;
-  padding-top: 6.25rem;
 }
 .sec2-item:hover {
   box-shadow: 0 0 0.875rem rgb(116, 116, 116);
