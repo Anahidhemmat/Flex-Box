@@ -49,12 +49,12 @@ body {
 .sec2-item {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+  align-content: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: rgba(127, 250, 127, 0.945);
-  width: 13vw;
-  height: 15vh;
+  width: 15vw;
+  height: 30vh;
   margin: 1.25rem;
   border-radius: 0.625rem;
 }

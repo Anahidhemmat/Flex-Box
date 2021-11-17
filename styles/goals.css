@@ -48,23 +48,29 @@ body {
   margin: 3.125rem 1.25rem;
 }
 .sec2-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   width: 40vw;
-  height: 30vh;
+  height: 20vh;
   background-color: rgba(127, 250, 127, 0.945);
   margin: 0.625rem;
-  text-align: center;
   border-radius: 0.625rem;
 }
 .sec2-item:hover {
   box-shadow: 0 0 0.875rem rgb(116, 116, 116);
 }
 .sec2-item i {
+  font-size: 1.5rem;
+  transition: all ease-in-out 250ms;
+}
+.sec2-item i:hover {
+  font-size: 2rem;
 }
 .sec2-item h3 {
-  padding-top: 5rem;
-  padding-bottom: 1.25rem;
   font-size: 1rem;
-  transition: all ease-in-out 250ms;
+  transition: all ease-in-out 280ms;
 }
 .sec2-item h3:hover {
   font-size: 2rem;
