@@ -23,6 +23,9 @@ body {
   display: flex;
   border-radius: 0.625rem 6.25rem / 7.5rem;
 }
+.link-list:hover {
+  box-shadow: 0 0 0.875rem rgb(116, 116, 116);
+}
 
 .link-list li {
   padding: 1.875rem 1.875rem;
@@ -31,9 +34,11 @@ body {
 .link-list li a {
   font-size: 1.2rem;
   color: black;
+  transition: all ease-in-out 250ms;
 }
 .link-list li a:hover {
   color: white;
+  font-size: 2rem;
 }
 .sec1 {
   border: 0.063rem dashed black;
@@ -43,11 +48,15 @@ body {
   line-height: 1.75rem;
   background-color: rgba(213, 213, 213, 0.324);
 }
+.sec1:hover {
+  box-shadow: 0 0 0.875rem rgb(116, 116, 116);
+}
 .sec1 h2 {
   margin-bottom: 0.625rem;
+  transition: all ease-in-out 250ms;
 }
 .sec1 h2:hover {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-shadow: 0 0 0.2rem rgb(116, 116, 116);
 }
 .sec2 {
@@ -68,16 +77,26 @@ body {
   box-shadow: 0 0 0.875rem rgb(116, 116, 116);
 }
 .sec2-item h3 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 1.25rem;
+  transition: all ease-in-out 250ms;
+}
+.sec2-item h3:hover {
+  font-size: 2rem;
 }
 .sec2-item i {
   font-size: 2.5rem;
   margin-bottom: 1.25rem;
+  transition: all ease-in-out 250ms;
+}
+.sec2-item i:hover {
+  font-size: 4rem;
 }
 .sec2-item a {
   color: black;
+  transition: all ease-in-out 250ms;
 }
 .sec2-item a:hover {
   color: white;
+  font-size: 1.5rem;
 }
