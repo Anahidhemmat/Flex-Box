@@ -23,7 +23,9 @@ body {
   border-radius: 0.625rem 6.25rem / 7.5rem;
   list-style-type: none;
 }
-
+.link-list:hover {
+  box-shadow: 0 0 0.875rem rgb(116, 116, 116);
+}
 .link-list li {
   width: 10vw;
   height: 5vh;
@@ -33,9 +35,11 @@ body {
 .link-list li a {
   font-size: 1.2rem;
   color: black;
+  transition: all ease-in-out 250ms;
 }
 .link-list li a:hover {
   color: white;
+  font-size: 2rem;
 }
 .sec2 {
   display: flex;
@@ -52,6 +56,25 @@ body {
   text-align: center;
   padding-top: 4rem;
 }
+.sec2-item:hover {
+  box-shadow: 0 0 0.875rem rgb(116, 116, 116);
+}
+.sec2-item i {
+  font-size: 2rem;
+
+  transition: all ease-in-out 250ms;
+}
+.sec2-item i:hover {
+  font-size: 3rem;
+}
+.sec2-item h3 {
+  font-size: 1rem;
+  transition: all ease-in-out 250ms;
+}
+.sec2-item h3:hover {
+  font-size: 1.2rem;
+}
+
 .sec2-item a {
   color: black;
 }

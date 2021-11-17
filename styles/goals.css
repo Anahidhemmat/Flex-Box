@@ -23,6 +23,9 @@ body {
   display: flex;
   border-radius: 0.625rem 6.25rem / 7.5rem;
 }
+.link-list:hover {
+  box-shadow: 0 0 0.875rem rgb(116, 116, 116);
+}
 
 .link-list li {
   width: 10vw;
@@ -33,9 +36,11 @@ body {
 .link-list li a {
   font-size: 1.2rem;
   color: black;
+  transition: all ease-in-out 250ms;
 }
 .link-list li a:hover {
   color: white;
+  font-size: 2rem;
 }
 .sec2 {
   display: flex;
@@ -50,27 +55,46 @@ body {
   text-align: center;
   border-radius: 0.625rem;
 }
+.sec2-item:hover {
+  box-shadow: 0 0 0.875rem rgb(116, 116, 116);
+}
+.sec2-item i {
+}
 .sec2-item h3 {
   padding-top: 5rem;
   padding-bottom: 1.25rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  transition: all ease-in-out 250ms;
+}
+.sec2-item h3:hover {
+  font-size: 2rem;
 }
 .sec2-item a {
   color: black;
+  transition: all ease-in-out 250ms;
 }
+
 .sec2-item a:hover {
   color: white;
+  font-size: 2rem;
 }
 .sec3 {
-  border: 0.125rem solid black;
+  border: 0.125rem dashed black;
   border-radius: 0.625rem;
   padding: 3.125rem;
   margin: 1.875rem;
+  background-color: rgba(213, 213, 213, 0.378);
+}
+.sec3:hover {
+  box-shadow: 0 0 0.875rem rgb(116, 116, 116);
 }
 .sec3 h2 {
-  margin-bottom: 1.25rem;
+  transition: all ease-in-out 250ms;
+}
+.sec3 h2:hover {
+  font-size: 2rem;
+  text-shadow: 0 0 0.2rem rgb(116, 116, 116);
 }
 .sec3 p {
-  margin: 0.625rem;
   line-height: 1.75rem;
 }
