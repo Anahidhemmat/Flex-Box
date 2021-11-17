@@ -36,14 +36,19 @@ body {
   color: white;
 }
 .sec1 {
-  border: 0.063rem solid black;
+  border: 0.063rem dashed black;
   border-radius: 0.625rem;
   margin: 1.25rem 1.25rem;
   padding: 1.875rem;
   line-height: 1.75rem;
+  background-color: rgba(213, 213, 213, 0.324);
 }
 .sec1 h2 {
   margin-bottom: 0.625rem;
+}
+.sec1 h2:hover {
+  font-size: 2.5rem;
+  text-shadow: 0 0 0.2rem rgb(116, 116, 116);
 }
 .sec2 {
   display: flex;
@@ -59,8 +64,15 @@ body {
   text-align: center;
   padding-top: 6.25rem;
 }
+.sec2-item:hover {
+  box-shadow: 0 0 0.875rem rgb(116, 116, 116);
+}
 .sec2-item h3 {
   font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.sec2-item i {
+  font-size: 2.5rem;
   margin-bottom: 1.25rem;
 }
 .sec2-item a {
