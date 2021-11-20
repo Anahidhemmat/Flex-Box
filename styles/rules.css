@@ -10,11 +10,13 @@ body {
 
 .header {
   background-color: rgba(213, 213, 213, 0.666);
-  height: 30vh;
+  height: 20vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 .link-list {
@@ -53,8 +55,8 @@ body {
   align-items: center;
   justify-content: space-evenly;
   background-color: rgba(127, 250, 127, 0.945);
-  width: 15vw;
-  height: 30vh;
+  width: 20vw;
+  height: 15vh;
   margin: 1.25rem;
   border-radius: 0.625rem;
 }
@@ -105,4 +107,15 @@ body {
 .sec3 ol li {
   margin: 0.625rem;
   line-height: 1.75rem;
+}
+@media screen and (max-width: 670px) {
+  * {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sec2-item {
+    width: 25vw;
+    height: 15vh;
+  }
 }
